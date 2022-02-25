@@ -23,6 +23,7 @@ class TestRegister:
     def test_login(self,test_case):
         test_info ,test_case = init_premise(case_data["test_info"],test_case,case_yaml)
         code , date =send_request(test_info,test_case)
+
         check_result(test_case,code,date)
 
 
