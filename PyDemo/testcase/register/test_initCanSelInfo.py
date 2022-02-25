@@ -18,6 +18,7 @@ test_case = read_yaml_data(case_yaml)
 @allure.feature(test_case["test_info"]["title"])
 class TestRegister:
 
+
     @pytest.mark.parametrize("test_case", test_case["test_case"])
     @allure.story("test_initCanSelInfo")
     def test_initCanSelInfo(self, test_case):
