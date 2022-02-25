@@ -1,8 +1,11 @@
 PyDemo:
   # 首次会根据接口数据包生成，可自行更改或添加新配置，所有配置将用于公共关联值。
   timeout: 10
-  scheme: http
-  host: 127.0.0.1:20037
+  scheme1: http
+  scheme : https
+  host1: 127.0.0.1:20037
+  host:  autodiscover.ctgpayroll.com
   headers:
-    Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+#    Content-Type1: application/x-www-form-urlencoded;charset=UTF-8
+    Content-Type: application/json;charset=UTF-8
   headtoken: xu5YwIZFkVGczMn0H0rot2ps7zRIbvrTHNwMXx1sJXg=

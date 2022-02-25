@@ -4,7 +4,6 @@
 # @File    : readYaml.py
 # ***********************
 
-
 def read_yaml_data(yaml_file):
 	"""读取yaml文件数据
 

@@ -18,23 +18,23 @@ if __name__ == '__main__':
 
     # 判断运行模式
     if RC['auto_switch'] == 3:
-        logging.info("根据接口抓包数据，自动生成测试用例和测试脚本，但不运行测试！")
+        logging.info(u"根据接口抓包数据，自动生成测试用例和测试脚本，但不运行测试！")
         writeCase.write_case(DATA_DIR, auto_yaml=True)
         sys.exit(0)
 
     elif RC['auto_switch'] == 2:
-        logging.info("根据接口抓包数据，自动生成测试用例和测试脚本，然后运行测试！")
+        logging.info(u"根据接口抓包数据，自动生成测试用例和测试脚本，然后运行测试！")
         writeCase.write_case(DATA_DIR, auto_yaml=True)
 
     elif RC['auto_switch'] == 1:
         # 如果扫描路径为空在则取项目page目录
         if not RC['scan_dir']:
             RC['scan_dir'] = PAGE_DIR
-        logging.info("根据手工编写用例，自动生成测试脚本，然后运行测试！")
+        logging.info(u"根据手工编写用例，自动生成测试脚本，然后运行测试！")
         writeCase.write_case(RC['scan_dir'], auto_yaml=False)
 
     else:
-        logging.info("不开启自动生成测试用例功能，将直接运行测试！")
+        logging.info(u"不开启自动生成测试用例功能，将直接运行测试！")
 
     # 定义运行参数
     args_list = ['-vs', TEST_DIR,

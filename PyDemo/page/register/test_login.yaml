@@ -1,0 +1,19 @@
+test_info:
+  title: test_login
+  scheme: ${scheme}
+  host: ${host}
+  method: POST
+  address: /ehr_saas/web/user/login.jhtml
+  headets: ${headers}
+  file: false
+  cookies: false
+  premise: /register/test_login.yaml
+test_case:
+- summary: login
+  describe: test_login
+  parameter: login_request.json
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result: login_response.json
+    callTime:

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
-# @Time    : 2021/2/2
-# @Author  : Leo Zhang
-# @File    : test_addOrUpCurBact.py
+# @Time    : 2022/02/25
+# @Author  : Wang GuoSheng
+# @File    : test_login
 # ****************************
 import os
 import allure
@@ -19,13 +19,10 @@ case_data = read_yaml_data(case_yaml)
 class TestRegister:
 
     @pytest.mark.parametrize("test_case", case_data["test_case"])
-    @allure.story("test_addOrUpCurBact")
-    def test_addOrUpCurBact(self, test_case):
-        # 初始化请求：执行前置接口+替换关联变量
-        test_info, test_case = init_premise(case_data["test_info"], test_case, case_yaml)
-        # 发送当前接口
-        code, data = send_request(test_info, test_case)
-        # 校验接口返回
-        check_result(test_case, code, data)
+    @allure.story("test_login")
+    def test_login(self,test_case):
+        test_info ,test_case = init_premise(case_data["test_info"],test_case,case_yaml)
+        code , date =send_request(test_info,test_case)
+        check_result(test_case,code,date)
 
 

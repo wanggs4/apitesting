@@ -1,0 +1,20 @@
+{
+	"errorCode": "0",
+	"msg": "登录成功",
+	"result": {
+		"data": {
+			"empId": "17165196562432",
+			"deptName": "易才宏业",
+			"empName": "王国盛",
+			"mobile": "18612533709",
+			"custId": "15921595797504",
+			"deptId": "15921872621568",
+			"photo": "https://wx.qlogo.cn/mmopen/vi_32/dEMTVQpfDEh2q2YBMqjuffTt8z1pFPf1Ga5oPFxDSRT5xpBs6UmlaGr6c63LKGCh8nEu8s9pXIoYFdD9ic2W6uw/132?t=.jpg",
+			"custName": "易才宏业",
+			"platform": "employee",
+			"deptFullName": "",
+			"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0SWQiOiJTVmNScmE2Nmd3WERNKzR5SlloZkhLTFc4SmYxbVl0RHd3QWN6T3RnS1JoYXBhVFUvYUhrMEhvYkVzMjdCeGVyRTdPN0Z3UlV5VjdUVkhHUFpLY2FjYkF3RFNpN3VOMllkMm1NS3ArcEEyb0hxeEk2cWx5aUFCVWJyM1l4SUJSelVxY1R0WitzbUtNVTQvSmplS1diN2ZtdDVMVWh2T1JUd3FTa1BnUW5EZ1k9IiwidXNlcklkIjoiSUFsOTBLS3RETVBNdW05aXIxaGpTSkNTd2x2OEx0TDlJKzlFcVdYRGN4K0tEUzBvbDk4a0ZkTGEzNzRGYUdKeGFpaFdUM3RKa2RSRmlYcmVKWDN5dklNZnhLTHN0N05OcmFqOUs1V1puUGMzcndha1RwWUVsK0VPWXd2YUhjQUkzUHpmU1dSK29nWlZPRzhDMVFMQUNXcnNPVCtnNEd6VGpYT0lLR0YzY3I4PSIsImVtcElkIjoiTnlHaFNVVjJrdjhKTUxoTzd3TXdkckdZUU5CSldWKzN5VFVVd09TdXJrYjNydFJNdlBmVGFFUFJJREJMbENZMHJGRlZjbHg0TGhCb0Z2QmJSb1JSZEFKVUJqVENXSXdLSUJoMStKMlY4RXQ1dkJwckpDSXBkeUJaMlcyVzRYUk4vckNaMmFaSVY3c2g1NmgySFB4N0VzSTVuakdybi9IVTlnR01CTWlUL0RNPSIsInRva2VuVHlwZSI6ImVtcFdlYiIsIm9yaWdpbiI6InNhYXMiLCJ0aW1lc3RhbXAiOjE2NDU3NzUxNDExOTN9.xQ6uwrdcISHUnMkhDCYQJXMuZW9Aq7V42jDUvle_Om4"
+		}
+	},
+	"suc": true
+}
