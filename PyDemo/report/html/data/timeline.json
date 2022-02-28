@@ -6,21 +6,8 @@
     "children" : [ {
       "name" : "1096-MainThread",
       "children" : [ {
-        "name" : "test_findParam[case_data0]",
-        "uid" : "10d4bd6301177f6",
-        "parentUid" : "0d5737b7c8f0eaf73ed6906fe9699a8a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1612427969141,
-          "stop" : 1612427970154,
-          "duration" : 1013
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'summary': 'findParam', 'describe': 'test_findParam', 'parameter': {'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': '${headtoken}'}, 'check': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': ['1', '1'], 'callTime': None}}}" ]
-      }, {
         "name" : "test_getAdultCurbactList[case_data0]",
-        "uid" : "7d4ed4f7a18b20d4",
+        "uid" : "cdd7609ad93940c6",
         "parentUid" : "0d5737b7c8f0eaf73ed6906fe9699a8a",
         "status" : "passed",
         "time" : {
@@ -32,8 +19,21 @@
         "newFailed" : false,
         "parameters" : [ "{'summary': 'getAdultCurbactList', 'describe': 'test_getAdultCurbactList', 'parameter': {'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': '${headtoken}'}, 'check': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': 'getAdultCurbactList_response.json'}}" ]
       }, {
+        "name" : "test_initCanSelInfo[case_data0]",
+        "uid" : "3cec33df4cf71455",
+        "parentUid" : "0d5737b7c8f0eaf73ed6906fe9699a8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612427971198,
+          "stop" : 1612427972269,
+          "duration" : 1071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'summary': 'initCanSelInfo', 'describe': 'test_initCanSelInfo', 'parameter': 'initCanSelInfo_request.json', 'check': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': 'initCanSelInfo_response.json'}}" ]
+      }, {
         "name" : "test_addOrUpCurBact[case_data0]",
-        "uid" : "e5c5230705b9bfbb",
+        "uid" : "d9d03e76e32f0237",
         "parentUid" : "0d5737b7c8f0eaf73ed6906fe9699a8a",
         "status" : "broken",
         "time" : {
@@ -45,18 +45,18 @@
         "newFailed" : false,
         "parameters" : [ "{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}" ]
       }, {
-        "name" : "test_initCanSelInfo[case_data0]",
-        "uid" : "aa8dfcaa510813c2",
+        "name" : "test_findParam[case_data0]",
+        "uid" : "7233a24f94fa8a3",
         "parentUid" : "0d5737b7c8f0eaf73ed6906fe9699a8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612427971198,
-          "stop" : 1612427972269,
-          "duration" : 1071
+          "start" : 1612427969141,
+          "stop" : 1612427970154,
+          "duration" : 1013
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'summary': 'initCanSelInfo', 'describe': 'test_initCanSelInfo', 'parameter': 'initCanSelInfo_request.json', 'check': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': 'initCanSelInfo_response.json'}}" ]
+        "parameters" : [ "{'summary': 'findParam', 'describe': 'test_findParam', 'parameter': {'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': '${headtoken}'}, 'check': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': ['1', '1'], 'callTime': None}}}" ]
       } ],
       "uid" : "0d5737b7c8f0eaf73ed6906fe9699a8a"
     } ],

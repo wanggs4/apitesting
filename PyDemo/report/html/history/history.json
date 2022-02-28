@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e5c5230705b9bfbb",
+      "uid" : "d9d03e76e32f0237",
       "status" : "broken",
       "statusDetails" : "Exception: JSON格式校验，关键字 success 返回结果 True 与期望结果 None 类型不符",
       "time" : {
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d4ed4f7a18b20d4",
+      "uid" : "cdd7609ad93940c6",
       "status" : "passed",
       "time" : {
         "start" : 1612427970157,
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10d4bd6301177f6",
+      "uid" : "7233a24f94fa8a3",
       "status" : "passed",
       "time" : {
         "start" : 1612427969141,
@@ -67,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aa8dfcaa510813c2",
+      "uid" : "3cec33df4cf71455",
       "status" : "passed",
       "time" : {
         "start" : 1612427971198,

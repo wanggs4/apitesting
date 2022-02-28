@@ -1,15 +1,15 @@
 [ {
-  "uid" : "e5c5230705b9bfbb",
-  "name" : "test_addOrUpCurBact[case_data0]",
+  "uid" : "cdd7609ad93940c6",
+  "name" : "test_getAdultCurbactList[case_data0]",
   "time" : {
-    "start" : 1612427966998,
-    "stop" : 1612427969076,
-    "duration" : 2078
+    "start" : 1612427970157,
+    "stop" : 1612427971195,
+    "duration" : 1038
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "10d4bd6301177f6",
+  "uid" : "7233a24f94fa8a3",
   "name" : "test_findParam[case_data0]",
   "time" : {
     "start" : 1612427969141,
@@ -19,22 +19,22 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aa8dfcaa510813c2",
+  "uid" : "d9d03e76e32f0237",
+  "name" : "test_addOrUpCurBact[case_data0]",
+  "time" : {
+    "start" : 1612427966998,
+    "stop" : 1612427969076,
+    "duration" : 2078
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3cec33df4cf71455",
   "name" : "test_initCanSelInfo[case_data0]",
   "time" : {
     "start" : 1612427971198,
     "stop" : 1612427972269,
     "duration" : 1071
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d4ed4f7a18b20d4",
-  "name" : "test_getAdultCurbactList[case_data0]",
-  "time" : {
-    "start" : 1612427970157,
-    "stop" : 1612427971195,
-    "duration" : 1038
   },
   "status" : "passed",
   "severity" : "normal"

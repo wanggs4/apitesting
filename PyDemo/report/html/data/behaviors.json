@@ -7,7 +7,7 @@
       "name" : "test_addOrUpCurBact",
       "children" : [ {
         "name" : "test_addOrUpCurBact[case_data0]",
-        "uid" : "e5c5230705b9bfbb",
+        "uid" : "d9d03e76e32f0237",
         "parentUid" : "d566fe8071743e379fe2d541eff0a459",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "test_findParam",
       "children" : [ {
         "name" : "test_findParam[case_data0]",
-        "uid" : "10d4bd6301177f6",
+        "uid" : "7233a24f94fa8a3",
         "parentUid" : "6499da8712dcd7b54b556fa696d8c606",
         "status" : "passed",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "test_getAdultCurbactList",
       "children" : [ {
         "name" : "test_getAdultCurbactList[case_data0]",
-        "uid" : "7d4ed4f7a18b20d4",
+        "uid" : "cdd7609ad93940c6",
         "parentUid" : "ec5dd644558c5ede81175da3d69997c9",
         "status" : "passed",
         "time" : {
@@ -58,7 +58,7 @@
       "name" : "test_initCanSelInfo",
       "children" : [ {
         "name" : "test_initCanSelInfo[case_data0]",
-        "uid" : "aa8dfcaa510813c2",
+        "uid" : "3cec33df4cf71455",
         "parentUid" : "d2c6018092b62680c13e6aea19af3982",
         "status" : "passed",
         "time" : {
